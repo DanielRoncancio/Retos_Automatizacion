@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Formulario Popup Validation" skipped="0" tests="1" time="42.75" timestamp="2020-05-18T15:21:43.952-05:00[America/Bogota]"><testcase name="Diligenciamiento con errores del formulario Popup Validation,"><failure message="&#10;Expected: is &lt;true&gt;&#10;     but: was &lt;false&gt;" type="java.lang.AssertionError">
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;</failure><system-err>
+Expected: is &lt;true&gt;
+     but: was &lt;false&gt;&#13;
+com.choucair.formacion.pageobjects.ColorlibFormValidationPage.form_con_errores(ColorlibFormValidationPage.java:142)&#13;
+com.choucair.formacion.steps.ColorlibFormValidationSteps.verificar_ingreso_datos_formulario_con_errores(ColorlibFormValidationSteps.java:37)&#13;
+com.choucair.formacion.definition.PopupValidationDefinition.verificar_que_se_presente_Globo_informativo_de_validación(PopupValidationDefinition.java:49)&#13;
+✽.Then verificar que se presente Globo informativo de validación(src/test/resources/features/Colorlib/Forms/PopupValidation.feature:29)&#13;
+</system-err></testcase></testsuite>
